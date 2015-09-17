@@ -15,24 +15,24 @@ var compare = function(choice1, choice2) {
     return "The result is a tie!";
 } else if(choice1 ==="rock") {
     if (choice2==="scissors") {
-    return "who wins?";
+    return "rock wins?";
 } else {
-    return "who wins";
+    return "paper wins";
         }
     }
    else if(choice1==="paper") {
        if(choice2 ==="rock") {
-           return "who wins";
+           return "paper wins";
        } else {
-           return "who wins";
+           return "scissors wins";
        }
    }
 
     else if(choice1==="scissors") {
         if (choice2==="rock") {
-            return "who wins";
+            return "rock wins";
         } else {
-            return "who wins";
+            return "scissors wins";
         }
     }
 
